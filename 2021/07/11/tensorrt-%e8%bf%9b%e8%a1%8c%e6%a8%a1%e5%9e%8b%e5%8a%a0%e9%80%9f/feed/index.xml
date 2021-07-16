@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	《TensorRT 进行模型加速》的评论	</title>
+	<atom:link href="https://github.com/Kaeless/blog/2021/07/11/tensorrt-%E8%BF%9B%E8%A1%8C%E6%A8%A1%E5%9E%8B%E5%8A%A0%E9%80%9F/feed/" rel="self" type="application/rss+xml" />
+	<link>https://github.com/Kaeless/blog/2021/07/11/tensorrt-%e8%bf%9b%e8%a1%8c%e6%a8%a1%e5%9e%8b%e5%8a%a0%e9%80%9f/</link>
+	<description>一个WordPress站点</description>
+	<lastBuildDate>Wed, 14 Jul 2021 13:30:22 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>
+		评论者：cathode		</title>
+		<link>https://github.com/Kaeless/blog/2021/07/11/tensorrt-%e8%bf%9b%e8%a1%8c%e6%a8%a1%e5%9e%8b%e5%8a%a0%e9%80%9f/#comment-3</link>
+
+		<dc:creator><![CDATA[cathode]]></dc:creator>
+		<pubDate>Wed, 14 Jul 2021 13:30:22 +0000</pubDate>
+		<guid isPermaLink="false">https://github.com/Kaeless/blog/?p=31#comment-3</guid>
+
+					<description><![CDATA[来一个评论]]></description>
+			<content:encoded><![CDATA[<p>来一个评论</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

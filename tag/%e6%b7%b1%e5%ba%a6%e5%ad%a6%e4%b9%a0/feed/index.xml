@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>深度学习 &#8211; Cathode 的个人主页</title>
+	<atom:link href="https://github.com/Kaeless/blog/tag/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/feed/" rel="self" type="application/rss+xml" />
+	<link>https://github.com/Kaeless/blog</link>
+	<description>一个WordPress站点</description>
+	<lastBuildDate>Wed, 14 Jul 2021 13:20:27 +0000</lastBuildDate>
+	<language>zh-CN</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+
+<image>
+	<url>https://github.com/Kaeless/blog/wp-content/uploads/2021/07/cropped-小鲨鱼-32x32.jpg</url>
+	<title>深度学习 &#8211; Cathode 的个人主页</title>
+	<link>https://github.com/Kaeless/blog</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Transformer学习</title>
+		<link>https://github.com/Kaeless/blog/2021/07/14/transformer%e5%ad%a6%e4%b9%a0/</link>
+					<comments>https://github.com/Kaeless/blog/2021/07/14/transformer%e5%ad%a6%e4%b9%a0/#respond</comments>
+		
+		<dc:creator><![CDATA[cathode]]></dc:creator>
+		<pubDate>Wed, 14 Jul 2021 07:32:54 +0000</pubDate>
+				<category><![CDATA[深度学习]]></category>
+		<category><![CDATA[Pytorch]]></category>
+		<guid isPermaLink="false">https://github.com/Kaeless/blog/?p=177</guid>
+
+					<description><![CDATA[Swin-Transformer： 李宏毅-Transformer_哔哩哔哩_bilibili paralle [&#8230;]]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="177" class="elementor elementor-177" data-elementor-settings="[]">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-c55981c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c55981c" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2774c3a" data-id="2774c3a" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-5002d72 elementor-widget elementor-widget-text-editor" data-id="5002d72" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><h1 class="ql-long-51191433" data-header="2"><span class="ql-author-51191433">Swin-Transformer：</span></h1>
+<p class="ql-long-51191433"><a class="ql-link ql-author-51191433" href="https://www.bilibili.com/video/av56239558/" target="_blank" rel="noopener noreferrer nofollow">李宏毅-Transformer_哔哩哔哩_bilibili</a></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">paraller:平行化，序列当中可以同时计算</span></p>
+<h3 class="ql-long-51191433" data-header="3"><span class="ql-author-51191433">main.py:</span></h3>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">MLP：实现Transformer当中的多层感知机部分</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">fc+activation(nn.GELU)+drop+fc+drop</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">drop暂不采用</span></p>
+<h3 class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">window partition：</span></h3>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">将图片分割为window_size的大小</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">window reverse：</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">window partition的反转，主要是将分割的patch还原为图片</span></p>
+<p> </p>
+<h3 class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">Window Attention：</span></h3>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">关键的窗口注意力机制，简称为W-MSA，支持shifted window与non-shifted window</span></p>
+<h3 class="ql-long-51191433"><strong class="ql-author-51191433 ql-size-14">W</strong><span class="ql-author-51191433 ql-size-14">indow </span><strong class="ql-author-51191433 ql-size-14">M</strong><span class="ql-author-51191433 ql-size-14">ulti-head </span><strong class="ql-author-51191433 ql-size-14">S</strong><span class="ql-author-51191433 ql-size-14">elf </span><strong class="ql-author-51191433 ql-size-14">A</strong><span class="ql-author-51191433 ql-size-14">ttention</span></h3>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">forward:</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">特征的shape：B N C</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">矩阵：Q K V query key value</span></p></div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-0399d39 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0399d39" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8af363d" data-id="8af363d" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-7c622fe elementor-widget elementor-widget-text-editor" data-id="7c622fe" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><h3 class="ql-long-51191433" data-header="2"><span class="ql-author-51191433">Self-Attention的作用：</span></h3>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">CNN的优点：可以进行paraller并行计算生成序列</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">缺点：感受野小，无法兼顾长时间序列</span></p>
+<h3 class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">bi-direction RNN的优点：</span></h3>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">每一个生成结果与所有输入有关</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">缺点：Hard to parallel</span></p>
+<h3 class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">Self-Attention Layer：</span></h3>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">x_i 经过embedding (乘权重矩阵W)变为 a_i</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">a_i 经过计算获得Q K V矩阵</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433"><img loading="lazy" src="https://uploader.shimo.im/f/lMA5gOfKXkAg37sh.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MjYyNDg1MDcsImciOiJkeURrY1E2Q3ZLcWRLeGpxIiwiaWF0IjoxNjI2MjQ4MjA3LCJ1c2VySWQiOjUxMTkxNDMzfQ.NwFucyGbByXNPPu-M8yBqi5oUT_ZZ1vQzEbcru9UhLc" width="168" height="auto" /></span></p>
+<h3 class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">Q K V矩阵的计算过程</span></h3>
+<p class="ql-long-51191433"><span class="ql-author-51191433"><img loading="lazy" src="https://uploader.shimo.im/f/Z7PxTuHjm2BJlo6u.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MjYyNDg1MDcsImciOiJkeURrY1E2Q3ZLcWRLeGpxIiwiaWF0IjoxNjI2MjQ4MjA3LCJ1c2VySWQiOjUxMTkxNDMzfQ.NwFucyGbByXNPPu-M8yBqi5oUT_ZZ1vQzEbcru9UhLc" width="363" height="auto" /></span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">d_k为向量的维度dim</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">softmax：概率归一化</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">Attention计算的结果输出为第一个sequense：b_1</span></p>
+<div class="ql-long-51191433" data-header="3" data-foldable=""><span class="ql-author-51191433">Q1对K1-K4做Attention</span></div>
+<p class="ql-long-51191433"><span class="ql-author-51191433"><img loading="lazy" src="https://uploader.shimo.im/f/nnzQx6ego3VV1zob.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MjYyNDg1MDcsImciOiJkeURrY1E2Q3ZLcWRLeGpxIiwiaWF0IjoxNjI2MjQ4MjA3LCJ1c2VySWQiOjUxMTkxNDMzfQ.NwFucyGbByXNPPu-M8yBqi5oUT_ZZ1vQzEbcru9UhLc" width="761" height="auto" /></span></p>
+<div class="ql-long-51191433" data-header="3" data-foldable=""><span class="ql-author-51191433">Q2对K1-K4做Attention</span></div>
+<p class="ql-long-51191433"><span class="ql-author-51191433"><img loading="lazy" src="https://uploader.shimo.im/f/8UT5KfcFVjij59sq.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MjYyNDg1MDcsImciOiJkeURrY1E2Q3ZLcWRLeGpxIiwiaWF0IjoxNjI2MjQ4MjA3LCJ1c2VySWQiOjUxMTkxNDMzfQ.NwFucyGbByXNPPu-M8yBqi5oUT_ZZ1vQzEbcru9UhLc" width="768" height="auto" /></span></p>
+<div class="ql-long-51191433" data-header="3" data-foldable=""><span class="ql-author-51191433">Paraller并行化：</span></div>
+<p class="ql-long-51191433"><span class="ql-author-51191433"><img loading="lazy" src="https://uploader.shimo.im/f/QDOz5pyZaIvf73A1.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MjYyNDg1MDcsImciOiJkeURrY1E2Q3ZLcWRLeGpxIiwiaWF0IjoxNjI2MjQ4MjA3LCJ1c2VySWQiOjUxMTkxNDMzfQ.NwFucyGbByXNPPu-M8yBqi5oUT_ZZ1vQzEbcru9UhLc" width="756" height="auto" /></span></p>
+<p> </p>
+<div class="ql-long-51191433" data-header="3" data-foldable=""><span class="ql-author-51191433">Self-Attention的直观化表示：</span></div>
+<p class="ql-long-51191433"><span class="ql-author-51191433"><img loading="lazy" src="https://uploader.shimo.im/f/Z7PxTuHjm2BJlo6u.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MjYyNDg1MDcsImciOiJkeURrY1E2Q3ZLcWRLeGpxIiwiaWF0IjoxNjI2MjQ4MjA3LCJ1c2VySWQiOjUxMTkxNDMzfQ.NwFucyGbByXNPPu-M8yBqi5oUT_ZZ1vQzEbcru9UhLc" width="363" height="auto" /></span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433"><img loading="lazy" src="https://uploader.shimo.im/f/nqIpJ7bLkwJiR5qo.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MjYyNDg1MDcsImciOiJkeURrY1E2Q3ZLcWRLeGpxIiwiaWF0IjoxNjI2MjQ4MjA3LCJ1c2VySWQiOjUxMTkxNDMzfQ.NwFucyGbByXNPPu-M8yBqi5oUT_ZZ1vQzEbcru9UhLc" width="739" height="auto" /></span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433"><img loading="lazy" src="https://uploader.shimo.im/f/oUYOcrXuRWSSwG1M.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MjYyNDg1MDcsImciOiJkeURrY1E2Q3ZLcWRLeGpxIiwiaWF0IjoxNjI2MjQ4MjA3LCJ1c2VySWQiOjUxMTkxNDMzfQ.NwFucyGbByXNPPu-M8yBqi5oUT_ZZ1vQzEbcru9UhLc" width="620" height="auto" /></span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433"><img loading="lazy" src="https://uploader.shimo.im/f/GqekjD7ml6Y97E9I.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MjYyNDg1MDcsImciOiJkeURrY1E2Q3ZLcWRLeGpxIiwiaWF0IjoxNjI2MjQ4MjA3LCJ1c2VySWQiOjUxMTkxNDMzfQ.NwFucyGbByXNPPu-M8yBqi5oUT_ZZ1vQzEbcru9UhLc" width="312" height="auto" /></span><span class="ql-author-51191433 ql-size-14">输入为I 输出为O</span></p>
+<p> </p>
+<div class="ql-long-51191433" data-header="2" data-foldable=""><span class="ql-author-51191433">Multi-Head Self Attention：</span></div>
+<p class="ql-long-51191433"><span class="ql-author-51191433"><img loading="lazy" src="https://uploader.shimo.im/f/RUYUpxPmQEX8UMZC.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MjYyNDg1MDcsImciOiJkeURrY1E2Q3ZLcWRLeGpxIiwiaWF0IjoxNjI2MjQ4MjA3LCJ1c2VySWQiOjUxMTkxNDMzfQ.NwFucyGbByXNPPu-M8yBqi5oUT_ZZ1vQzEbcru9UhLc" width="776" height="auto" /></span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">作用：多个Q K V的组成，每个Head各司其职，可以关注不同的特征</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">最后concat 成W矩阵获得最终的输出b</span></p>
+<div class="ql-long-51191433" data-header="2" data-foldable=""><span class="ql-author-51191433">Position Encoding:</span></div>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">self-attention当中没有位置信息</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">在a_i当中添加一个向量e_i:人为规定，代表位置资讯</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">实际上e是由one-hot向量与权重矩阵相乘得到的结果：</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433"><img loading="lazy" src="https://uploader.shimo.im/f/U5prxOPiqOhT9wVW.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MjYyNDg1MDcsImciOiJkeURrY1E2Q3ZLcWRLeGpxIiwiaWF0IjoxNjI2MjQ4MjA3LCJ1c2VySWQiOjUxMTkxNDMzfQ.NwFucyGbByXNPPu-M8yBqi5oUT_ZZ1vQzEbcru9UhLc" width="752" height="auto" /></span></p>
+<p> </p>
+<h3 class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">Batch Norm和Layer Norm</span></h3>
+<p class="ql-long-51191433"><span class="ql-author-51191433"><img loading="lazy" src="https://uploader.shimo.im/f/7Il4wYyNqNrZa8Ni.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MjYyNDg1MDcsImciOiJkeURrY1E2Q3ZLcWRLeGpxIiwiaWF0IjoxNjI2MjQ4MjA3LCJ1c2VySWQiOjUxMTkxNDMzfQ.NwFucyGbByXNPPu-M8yBqi5oUT_ZZ1vQzEbcru9UhLc" width="780" height="auto" /></span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">batch norm：对每个batch的所有sample进行归一化</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433">一个batch作为基本单位</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">layer norm：一个layer当中的所有隐含神经元，做归一化</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">一个layer作为基本单位</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433"><img loading="lazy" src="https://uploader.shimo.im/f/jJbZE8t9pzoYYsKA.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MjYyNDg1MDcsImciOiJkeURrY1E2Q3ZLcWRLeGpxIiwiaWF0IjoxNjI2MjQ4MjA3LCJ1c2VySWQiOjUxMTkxNDMzfQ.NwFucyGbByXNPPu-M8yBqi5oUT_ZZ1vQzEbcru9UhLc" width="984" height="auto" /></span></p>
+<p> </p>
+<h3 class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">最终Attention的Visualization：</span></h3>
+<p class="ql-long-51191433"><a class="ql-link ql-author-51191433" href="https://ai.googleblog.com/" target="_blank" rel="noopener noreferrer nofollow">https://ai.googleblog.com/</a></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433"><img loading="lazy" src="https://uploader.shimo.im/f/nFuOlryg8MSUbzGr.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MjYyNDg1MDcsImciOiJkeURrY1E2Q3ZLcWRLeGpxIiwiaWF0IjoxNjI2MjQ4MjA3LCJ1c2VySWQiOjUxMTkxNDMzfQ.NwFucyGbByXNPPu-M8yBqi5oUT_ZZ1vQzEbcru9UhLc" width="767" height="auto" /></span></p>
+<h3 class="ql-long-51191433" data-header="2"><span class="ql-author-51191433">Example Application：</span></h3>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">1.seq2seq可以无缝切换到Transformer</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">2.Universal Transformer</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">3.Self Attention GAN</span></p>
+<p> </p>
+<p> </p></div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+						</div>
+					</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>https://github.com/Kaeless/blog/2021/07/14/transformer%e5%ad%a6%e4%b9%a0/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>TensorRT 进行模型加速</title>
+		<link>https://github.com/Kaeless/blog/2021/07/11/tensorrt-%e8%bf%9b%e8%a1%8c%e6%a8%a1%e5%9e%8b%e5%8a%a0%e9%80%9f/</link>
+					<comments>https://github.com/Kaeless/blog/2021/07/11/tensorrt-%e8%bf%9b%e8%a1%8c%e6%a8%a1%e5%9e%8b%e5%8a%a0%e9%80%9f/#comments</comments>
+		
+		<dc:creator><![CDATA[cathode]]></dc:creator>
+		<pubDate>Sun, 11 Jul 2021 04:24:05 +0000</pubDate>
+				<category><![CDATA[深度学习]]></category>
+		<category><![CDATA[Pytorch]]></category>
+		<guid isPermaLink="false">https://github.com/Kaeless/blog/?p=31</guid>
+
+					<description><![CDATA[1.TensorRT 8.0.0.3无法进行推理，示例程序报错如下： 解决方案：采用TensorRT 7.2. [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>1.TensorRT 8.0.0.3无法进行推理，示例程序报错如下：</p>
+
+
+
+<p>解决方案：采用TensorRT 7.2.*来进行推理加速</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://github.com/Kaeless/blog/2021/07/11/tensorrt-%e8%bf%9b%e8%a1%8c%e6%a8%a1%e5%9e%8b%e5%8a%a0%e9%80%9f/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

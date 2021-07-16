@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>前端 &#8211; Cathode 的个人主页</title>
+	<atom:link href="https://github.com/Kaeless/blog/tag/%E5%89%8D%E7%AB%AF/feed/" rel="self" type="application/rss+xml" />
+	<link>https://github.com/Kaeless/blog</link>
+	<description>一个WordPress站点</description>
+	<lastBuildDate>Fri, 16 Jul 2021 06:07:04 +0000</lastBuildDate>
+	<language>zh-CN</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+
+<image>
+	<url>https://github.com/Kaeless/blog/wp-content/uploads/2021/07/cropped-小鲨鱼-32x32.jpg</url>
+	<title>前端 &#8211; Cathode 的个人主页</title>
+	<link>https://github.com/Kaeless/blog</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Electron进行开发</title>
+		<link>https://github.com/Kaeless/blog/2021/07/15/elementor%e8%bf%9b%e8%a1%8c%e5%bc%80%e5%8f%91/</link>
+					<comments>https://github.com/Kaeless/blog/2021/07/15/elementor%e8%bf%9b%e8%a1%8c%e5%bc%80%e5%8f%91/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Thu, 15 Jul 2021 14:35:12 +0000</pubDate>
+				<category><![CDATA[前端学习]]></category>
+		<category><![CDATA[electron]]></category>
+		<category><![CDATA[Vue]]></category>
+		<category><![CDATA[前端]]></category>
+		<guid isPermaLink="false">https://github.com/Kaeless/blog/?p=1040</guid>
+
+					<description><![CDATA[CSDN软件开发 以下文章主要参考上述链接 从零开始配置electron： Electron简介 Electr [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-buttons"></div>
+
+
+
+<figure class="wp-block-pullquote is-style-default"><blockquote><p><a rel="noreferrer noopener" href="https://blog.csdn.net/qq_40443651/article/details/103616096" target="_blank">CSDN软件开发</a></p><cite>以下文章主要参考上述链接</cite></blockquote></figure>
+
+
+
+<figure class="wp-block-image"><img src="https://uploader.shimo.im/f/NhN2eiU6yOqj1EXC.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MjYzNjA2MzYsImciOiJ3dHJYV1R0NmhWQzlHaGtyIiwiaWF0IjoxNjI2MzYwMzM2LCJ1c2VySWQiOjUxMTkxNDMzfQ.92fd7reB4dU-wQWGUZSi9w_Go5Sb2Rf2KmGLArNJ98E" alt=""/></figure>
+
+
+
+<figure class="wp-block-image"><img src="https://uploader.shimo.im/f/cfpznsOB70Sti76u.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MjYzNjA2MzYsImciOiJ3dHJYV1R0NmhWQzlHaGtyIiwiaWF0IjoxNjI2MzYwMzM2LCJ1c2VySWQiOjUxMTkxNDMzfQ.92fd7reB4dU-wQWGUZSi9w_Go5Sb2Rf2KmGLArNJ98E" alt=""/></figure>
+
+
+
+<figure class="wp-block-image"><img src="https://uploader.shimo.im/f/7H1KODHaKbo3NSGE.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MjYzNjA2MzYsImciOiJ3dHJYV1R0NmhWQzlHaGtyIiwiaWF0IjoxNjI2MzYwMzM2LCJ1c2VySWQiOjUxMTkxNDMzfQ.92fd7reB4dU-wQWGUZSi9w_Go5Sb2Rf2KmGLArNJ98E" alt=""/></figure>
+
+
+
+<p>从零开始配置electron：</p>
+
+
+
+<h2>Electron简介</h2>
+
+
+
+<p>Electron是由Github开发，基于Chromium和Node.js，使用JavaScript、HTML和CSS等Web技术创建跨平台原生桌面应用的框架。兼容Mac、Window和Linux，它构建的应用可在这三个操作系统上面运行，借助Electron，我们可以使用纯JavaScript来调用丰富的原生APIs。</p>
+
+
+
+<p>自动更新原生的菜单和通知崩溃报告调试和性能分析windows安装程序</p>
+
+
+
+<h2>开发环境介绍</h2>
+
+
+
+<p>主机操作系统：Windows7Python版本：Python 2.7.12node版本：v8.9.3npm版本：v5.5.1cnpm版本：v6.0.0Electron版本：v2.0.7提示：1.Windows7 / Server 2008 R2 或更高。2.Visual Studio 2017 &#8211; 免费下载 VS 。3.2017 Community Edition。4.Python 2.7.12。5.Node.js。</p>
+
+
+
+<h2>开发工具介绍</h2>
+
+
+
+<h3>开发工具</h3>
+
+
+
+<p>Vs code最新版</p>
+
+
+
+<h3>插件安装</h3>
+
+
+
+<p>npm Intellisense Node.js Extension Pack</p>
+
+
+
+<h2>Electron安装</h2>
+
+
+
+<h3>安装Python</h3>
+
+
+
+<p>进入官网下载页面下载对应版本的msi安装包 (<a href="https://link.zhihu.com/?target=https%3A//www.python.org/downloads/" target="_blank" rel="noreferrer noopener">https://www./</a><a href="https://link.zhihu.com/?target=https%3A//www.python.org/downloads/" target="_blank" rel="noreferrer noopener">python.org/downloads/</a>)。点击运行msi安装包，默认安装python。win + r 输入cmd打开命令行，输入<code>python -V</code>查看python是否正确安装。</p>
+
+
+
+<h3>安装node、npm和配置npm安装路径</h3>
+
+
+
+<p>进入官网下载页面下载对应版本的msi安装包 (<a rel="noreferrer noopener" href="https://link.zhihu.com/?target=https%3A//nodejs.org/zh-cn/download/releases/" target="_blank">https://nodejs.org/zh-cn/download/releases/</a>)。点击运行msi安装包，默认安装node v8.9.3。win + r 输入cmd打开命令行，输入<code>node -v</code>查看node v8.9.3是否正确安装，输入<code>npm -v</code>查看集成的npm v5.5.1是否正确安装。npm配置全局安装路径。win + r 输入cmd打开命令行，输入：</p>
+
+
+
+<pre class="wp-block-code"><code lang="bash" class="language-bash">npm config set prefix "C:\Program Files\nodejs\node_global"</code></pre>
+
+
+
+<p>查看nodejs文件夹中是否自动生成node_global文件夹，如果存在，则说明设置成功。右击计算机，点击属性，点击高级系统设置，点击环境变量，翻阅系统变量内容，找到path变量，在变量值末尾添加;C:\Program Files\nodejs\node_global;。</p>
+
+
+
+<h3>安装cnmp</h3>
+
+
+
+<p>win + r 输入cmd打开命令行，输入：</p>
+
+
+
+<pre class="wp-block-code"><code lang="bash" class="language-bash">npm install -g cnpm --registry=https://registry.npm.taobao.org/"</code></pre>
+
+
+
+<p>win + r 输入cmd打开命令行，输入：</p>
+
+
+
+<pre class="wp-block-preformatted">cnpm -v</pre>
+
+
+
+<p>查看cnpm是否正确安装。提示：1.electron包挂载在国外网站上，使用npm下载比较容易失败，使用cnpm能够快速下载指定版本的electron包。</p>
+
+
+
+<h3>安装electron</h3>
+
+
+
+<p>win + r 输入cmd打开命令行，输入：</p>
+
+
+
+<pre class="wp-block-code"><code class="">cnpm install -g electron</code></pre>
+
+
+
+<p>win + r 输入cmd打开命令行，输入：</p>
+
+
+
+<pre class="wp-block-code"><code class="">electron -v</code></pre>
+
+
+
+<p>查看electron是否正确安装。</p>
+
+
+
+<h3>构建第一个应用程序</h3>
+
+
+
+<h3>新建工程文件夹</h3>
+
+
+
+<p>新建文件夹your-app,打开vscode,在vscode中打开该文件夹。</p>
+
+
+
+<h3>创建Electron基本结构</h3>
+
+
+
+<p>根据需要在your-app文件夹中创建文件main.js和index.html.一个最基本的Electron应用一般来说会有如下的目录结构：</p>
+
+
+
+<pre class="wp-block-preformatted">your-app/
+  ├── package.json
+  ├── main.js
+  └── index.html</pre>
+
+
+
+<h3>生成package.json</h3>
+
+
+
+<pre class="wp-block-preformatted">npm init</pre>
+
+
+
+<p><code>npm init</code>成功之后，将在工程目录下生成默认的package.json文件，如下所示：</p>
+
+
+
+<pre class="wp-block-code"><code lang="css" class="language-css">{
+  "name": "electrontest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" &amp;&amp; exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}</code></pre>
+
+
+
+<h3>配置启动脚本</h3>
+
+
+
+<p>在默认package.json文件中添加一个 start 脚本来指引 Electron 去执行当前的 package</p>
+
+
+
+<pre class="wp-block-code"><code lang="css" class="language-css">{
+  "name": "electrontest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" &amp;&amp; exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}</code></pre>
+
+
+
+<h3>添加启动程序代码</h3>
+
+
+
+<p>在main.js文件中添加后台逻辑代码如下：</p>
+
+
+
+<pre class="wp-block-code"><code lang="javascript" class="language-javascript">{
+  const {app, BrowserWindow} = require('electron')
+  
+  // Keep a global reference of the window object, if you don't, the window will
+  // be closed automatically when the JavaScript object is garbage collected.
+  let win
+  
+  function createWindow () {
+    // 创建浏览器窗口。
+    win = new BrowserWindow({width: 800, height: 60})
+  
+    // 然后加载应用的 index.html。
+    win.loadFile('index.html')
+  
+    // 打开开发者工具
+    win.webContents.openDevTools()
+  
+    // 当 window 被关闭，这个事件会被触发。
+    win.on('closed', () =&gt; {
+      // 取消引用 window 对象，如果你的应用支持多窗口的话，
+      // 通常会把多个 window 对象存放在一个数组里面，
+      // 与此同时，你应该删除相应的元素。
+      win = null
+    })
+  }
+  
+  // Electron 会在初始化后并准备
+  // 创建浏览器窗口时，调用这个函数。
+  // 部分 API 在 ready 事件触发后才能使用。
+  app.on('ready', createWindow)
+  
+  // 当全部窗口关闭时退出。
+  app.on('window-all-closed', () =&gt; {
+    // 在 macOS 上，除非用户用 Cmd + Q 确定地退出，
+    // 否则绝大部分应用及其菜单栏会保持激活。
+    if (process.platform !== 'darwin') {
+      app.quit()
+    }
+  })
+  
+  app.on('activate', () =&gt; {
+    // 在macOS上，当单击dock图标并且没有其他窗口打开时，
+    // 通常在应用程序中重新创建一个窗口。
+    if (win === null) {
+      createWindow()
+    }
+  })
+  
+  // 在这个文件中，你可以续写应用剩下主进程代码。
+  // 也可以拆分成几个文件，然后用 require 导入。
+}</code></pre>
+
+
+
+<h3>添加需要渲染的模板文件</h3>
+
+
+
+<p>在index.html文件中添加html模板代码如下：</p>
+
+
+
+<pre class="wp-block-code"><code lang="markup" class="language-markup">&lt;!DOCTYPE html&gt;
+  &lt;html&gt;
+    &lt;head&gt;
+      &lt;meta charset="UTF-8"&gt;
+      &lt;title&gt;Hello World!&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+      &lt;h1&gt;Hello World!&lt;/h1&gt;
+      We are using node &lt;script&gt;document.write(process.versions.node)&lt;/script&gt;,
+      Chrome &lt;script&gt;document.write(process.versions.chrome)&lt;/script&gt;,
+      and Electron &lt;script&gt;document.write(process.versions.electron)&lt;/script&gt;.
+    &lt;/body&gt;
+  &lt;/html&gt;</code></pre>
+
+
+
+<h3>启动程序</h3>
+
+
+
+<p>在终端输入如下代码：</p>
+
+
+
+<pre class="wp-block-code"><code class="">electron .</code></pre>
+
+
+
+<h3>运行效果</h3>
+
+
+
+<figure class="wp-block-image"><img src="https://uploader.shimo.im/f/Ckue9jxcQhOaTu6T.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MjYzNjA2MzYsImciOiJ3dHJYV1R0NmhWQzlHaGtyIiwiaWF0IjoxNjI2MzYwMzM2LCJ1c2VySWQiOjUxMTkxNDMzfQ.92fd7reB4dU-wQWGUZSi9w_Go5Sb2Rf2KmGLArNJ98E" alt=""/></figure>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://github.com/Kaeless/blog/2021/07/15/elementor%e8%bf%9b%e8%a1%8c%e5%bc%80%e5%8f%91/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

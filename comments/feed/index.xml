@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	“Cathode 的个人主页”的评论	</title>
+	<atom:link href="https://github.com/Kaeless/blog/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>https://github.com/Kaeless/blog</link>
+	<description>一个WordPress站点</description>
+	<lastBuildDate>Thu, 15 Jul 2021 10:06:05 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>
+		cathode对《WordPress插入图片与视频》的评论		</title>
+		<link>https://github.com/Kaeless/blog/2021/07/13/wordpress%e6%8f%92%e5%85%a5%e5%9b%be%e7%89%87%e4%b8%8e%e8%a7%86%e9%a2%91/#comment-6</link>
+
+		<dc:creator><![CDATA[cathode]]></dc:creator>
+		<pubDate>Wed, 14 Jul 2021 13:50:17 +0000</pubDate>
+		<guid isPermaLink="false">https://github.com/Kaeless/blog/?p=57#comment-6</guid>
+
+					<description><![CDATA[评论]]></description>
+			<content:encoded><![CDATA[<p>评论</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		cathode对《WordPress插入图片与视频》的评论		</title>
+		<link>https://github.com/Kaeless/blog/2021/07/13/wordpress%e6%8f%92%e5%85%a5%e5%9b%be%e7%89%87%e4%b8%8e%e8%a7%86%e9%a2%91/#comment-5</link>
+
+		<dc:creator><![CDATA[cathode]]></dc:creator>
+		<pubDate>Wed, 14 Jul 2021 13:50:03 +0000</pubDate>
+		<guid isPermaLink="false">https://github.com/Kaeless/blog/?p=57#comment-5</guid>
+
+					<description><![CDATA[回复给&lt;a href=&quot;https://github.com/Kaeless/blog/2021/07/13/wordpress%e6%8f%92%e5%85%a5%e5%9b%be%e7%89%87%e4%b8%8e%e8%a7%86%e9%a2%91/#comment-4&quot;&gt;cathode&lt;/a&gt;。
+
+评论测试]]></description>
+			<content:encoded><![CDATA[<p>回复给<a href="https://github.com/Kaeless/blog/2021/07/13/wordpress%e6%8f%92%e5%85%a5%e5%9b%be%e7%89%87%e4%b8%8e%e8%a7%86%e9%a2%91/#comment-4">cathode</a>。</p>
+<p>评论测试</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		cathode对《WordPress插入图片与视频》的评论		</title>
+		<link>https://github.com/Kaeless/blog/2021/07/13/wordpress%e6%8f%92%e5%85%a5%e5%9b%be%e7%89%87%e4%b8%8e%e8%a7%86%e9%a2%91/#comment-4</link>
+
+		<dc:creator><![CDATA[cathode]]></dc:creator>
+		<pubDate>Wed, 14 Jul 2021 13:48:54 +0000</pubDate>
+		<guid isPermaLink="false">https://github.com/Kaeless/blog/?p=57#comment-4</guid>
+
+					<description><![CDATA[评论测试]]></description>
+			<content:encoded><![CDATA[<p>评论测试</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		cathode对《TensorRT 进行模型加速》的评论		</title>
+		<link>https://github.com/Kaeless/blog/2021/07/11/tensorrt-%e8%bf%9b%e8%a1%8c%e6%a8%a1%e5%9e%8b%e5%8a%a0%e9%80%9f/#comment-3</link>
+
+		<dc:creator><![CDATA[cathode]]></dc:creator>
+		<pubDate>Wed, 14 Jul 2021 13:30:22 +0000</pubDate>
+		<guid isPermaLink="false">https://github.com/Kaeless/blog/?p=31#comment-3</guid>
+
+					<description><![CDATA[来一个评论]]></description>
+			<content:encoded><![CDATA[<p>来一个评论</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		cathode对《你好，WordPress！》的评论		</title>
+		<link>https://github.com/Kaeless/blog/2021/07/10/hello-world/#comment-2</link>
+
+		<dc:creator><![CDATA[cathode]]></dc:creator>
+		<pubDate>Sat, 10 Jul 2021 16:17:09 +0000</pubDate>
+		<guid isPermaLink="false">https://github.com/Kaeless/blog/?p=1#comment-2</guid>
+
+					<description><![CDATA[回复给&lt;a href=&quot;https://github.com/Kaeless/blog/2021/07/10/hello-world/#comment-1&quot;&gt;一位WordPress评论者&lt;/a&gt;。
+
+测试一下头像能否正常显示]]></description>
+			<content:encoded><![CDATA[<p>回复给<a href="https://github.com/Kaeless/blog/2021/07/10/hello-world/#comment-1">一位WordPress评论者</a>。</p>
+<p>测试一下头像能否正常显示</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		一位WordPress评论者对《你好，WordPress！》的评论		</title>
+		<link>https://github.com/Kaeless/blog/2021/07/10/hello-world/#comment-1</link>
+
+		<dc:creator><![CDATA[一位WordPress评论者]]></dc:creator>
+		<pubDate>Sat, 10 Jul 2021 09:58:50 +0000</pubDate>
+		<guid isPermaLink="false">https://github.com/Kaeless/blog/?p=1#comment-1</guid>
+
+					<description><![CDATA[嗨，这是一条评论。
+要开始审核、编辑及删除评论，请访问仪表盘的“评论”页面。
+评论者头像来自&lt;a href=&quot;https://gravatar.com&quot;&gt;Gravatar&lt;/a&gt;。]]></description>
+			<content:encoded><![CDATA[<p>嗨，这是一条评论。<br />
+要开始审核、编辑及删除评论，请访问仪表盘的“评论”页面。<br />
+评论者头像来自<a href="https://gravatar.com/">Gravatar</a>。</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Wordpress学习 &#8211; Cathode 的个人主页</title>
+	<atom:link href="https://github.com/Kaeless/blog/category/wordpress%E5%AD%A6%E4%B9%A0/feed/" rel="self" type="application/rss+xml" />
+	<link>https://github.com/Kaeless/blog</link>
+	<description>一个WordPress站点</description>
+	<lastBuildDate>Wed, 14 Jul 2021 14:25:05 +0000</lastBuildDate>
+	<language>zh-CN</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+
+<image>
+	<url>https://github.com/Kaeless/blog/wp-content/uploads/2021/07/cropped-小鲨鱼-32x32.jpg</url>
+	<title>Wordpress学习 &#8211; Cathode 的个人主页</title>
+	<link>https://github.com/Kaeless/blog</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>WordPress插入图片与视频</title>
+		<link>https://github.com/Kaeless/blog/2021/07/13/wordpress%e6%8f%92%e5%85%a5%e5%9b%be%e7%89%87%e4%b8%8e%e8%a7%86%e9%a2%91/</link>
+					<comments>https://github.com/Kaeless/blog/2021/07/13/wordpress%e6%8f%92%e5%85%a5%e5%9b%be%e7%89%87%e4%b8%8e%e8%a7%86%e9%a2%91/#comments</comments>
+		
+		<dc:creator><![CDATA[cathode]]></dc:creator>
+		<pubDate>Tue, 13 Jul 2021 06:23:08 +0000</pubDate>
+				<category><![CDATA[Wordpress学习]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">https://github.com/Kaeless/blog/?p=57</guid>
+
+					<description><![CDATA[如何在wordpress主页和blog当中插入图片或视频 采用url插入与插件的形式：url插入缓慢，无法插入 [&#8230;]]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="57" class="elementor elementor-57" data-elementor-settings="[]">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-259335b7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="259335b7" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-12e85fd6" data-id="12e85fd6" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-42e0c4db elementor-widget elementor-widget-text-editor" data-id="42e0c4db" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><!-- wp:paragraph {"fontSize":"normal"} -->
+<p class="has-normal-font-size">如何在wordpress主页和blog当中插入图片或视频</p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+<p>采用url插入与插件的形式：url插入缓慢，无法插入封面</p>
+<!-- /wp:paragraph --><!-- wp:table --><!-- /wp:table --><!-- wp:paragraph --><!-- /wp:paragraph --></div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-421b263 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="421b263" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9e88a83" data-id="9e88a83" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-9659f09 elementor-widget elementor-widget-heading" data-id="9659f09" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">插入一个表格</h2>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-9de9d25 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9de9d25" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-10a5a8a" data-id="10a5a8a" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-daa3feb elementor-widget elementor-widget-html" data-id="daa3feb" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			
+<table id="tablepress-1" class="tablepress tablepress-id-1">
+<thead>
+<tr class="row-1 odd">
+	<th class="column-1">测试</th><th class="column-2">测试</th><th class="column-3">测试</th><th class="column-4">4测试</th><th class="column-5">d测试</th>
+</tr>
+</thead>
+<tbody class="row-hover">
+<tr class="row-2 even">
+	<td class="column-1">测试</td><td class="column-2">测试</td><td class="column-3"></td><td class="column-4"></td><td class="column-5"></td>
+</tr>
+<tr class="row-3 odd">
+	<td class="column-1">测试</td><td class="column-2">测试</td><td class="column-3"></td><td class="column-4"></td><td class="column-5"></td>
+</tr>
+<tr class="row-4 even">
+	<td class="column-1">测试</td><td class="column-2">测试</td><td class="column-3">测试</td><td class="column-4"></td><td class="column-5"></td>
+</tr>
+<tr class="row-5 odd">
+	<td class="column-1">测试</td><td class="column-2">测试</td><td class="column-3">测试</td><td class="column-4"></td><td class="column-5"></td>
+</tr>
+</tbody>
+</table>
+<!-- #tablepress-1 from cache -->		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-4d19d3f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4d19d3f" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6ba02be" data-id="6ba02be" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-d300acc elementor-widget elementor-widget-text-editor" data-id="d300acc" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><h1>视频插件：</h1>
+<p>采用 All in One Gallery来进行视频的插入<br />通过切换到代码编辑器来进行换行</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<h3>嵌入各种模块的实现：</h3></div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-d9294bf elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d9294bf" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-915ea64" data-id="915ea64" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-fb9092b elementor-aspect-ratio-169 elementor-widget elementor-widget-video" data-id="fb9092b" data-element_type="widget" data-settings="{&quot;video_type&quot;:&quot;dailymotion&quot;,&quot;controls&quot;:&quot;yes&quot;,&quot;aspect_ratio&quot;:&quot;169&quot;}" data-widget_type="video.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-wrapper elementor-fit-aspect-ratio elementor-open-inline">
+			<iframe class="elementor-video-iframe" allowfullscreen title="dailymotion 视频播放器" src="https://dailymotion.com/embed/video/x6tqhqb?ui-highlight&amp;start&amp;endscreen-enable=0&amp;controls=1&amp;mute=0&amp;ui-start-screen-info=1&amp;ui-logo=1"></iframe>		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-ef278cc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ef278cc" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-72653e8" data-id="72653e8" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-567a339 elementor-widget elementor-widget-html" data-id="567a339" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<div class="embed-responsive embed-responsive-16by9">
+<iframe 
+class="embed-responsive-item"
+src="//player.bilibili.com/player.html?aid=70839977&bvid=BV1aE411o7qd&cid=122735362&page=1"
+    allowfullscreen> 
+</iframe>
+</div>
+		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+						</div>
+					</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>https://github.com/Kaeless/blog/2021/07/13/wordpress%e6%8f%92%e5%85%a5%e5%9b%be%e7%89%87%e4%b8%8e%e8%a7%86%e9%a2%91/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

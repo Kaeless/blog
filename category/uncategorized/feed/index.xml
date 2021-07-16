@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>未分类 &#8211; Cathode 的个人主页</title>
+	<atom:link href="https://github.com/Kaeless/blog/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
+	<link>https://github.com/Kaeless/blog</link>
+	<description>一个WordPress站点</description>
+	<lastBuildDate>Thu, 15 Jul 2021 10:06:05 +0000</lastBuildDate>
+	<language>zh-CN</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+
+<image>
+	<url>https://github.com/Kaeless/blog/wp-content/uploads/2021/07/cropped-小鲨鱼-32x32.jpg</url>
+	<title>未分类 &#8211; Cathode 的个人主页</title>
+	<link>https://github.com/Kaeless/blog</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>你好，WordPress！</title>
+		<link>https://github.com/Kaeless/blog/2021/07/10/hello-world/</link>
+					<comments>https://github.com/Kaeless/blog/2021/07/10/hello-world/#comments</comments>
+		
+		<dc:creator><![CDATA[cathode]]></dc:creator>
+		<pubDate>Sat, 10 Jul 2021 09:58:50 +0000</pubDate>
+				<category><![CDATA[未分类]]></category>
+		<guid isPermaLink="false">https://github.com/Kaeless/blog/?p=1</guid>
+
+					<description><![CDATA[这里主要展示一些WordPress的小技巧，用来进行备份，展示功能的基本使用。 博客当中主要分享研究生工作的进 [&#8230;]]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="1" class="elementor elementor-1" data-elementor-settings="[]">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-7b16797d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7b16797d" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4402c9eb" data-id="4402c9eb" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-24f67746 elementor-widget elementor-widget-text-editor" data-id="24f67746" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><!-- wp:paragraph -->
+<p>这里主要展示一些WordPress的小技巧，用来进行备份，展示功能的基本使用。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>博客当中主要分享研究生工作的进度，自学知识，leetcode刷题进度等等。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3><strong>7.10</strong></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>采用插件Simple Local Avatars来更新开发者的默认头像，换了一个可爱的小鲨鱼&#8230;..</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:gallery {"ids":[23],"linkTo":"none"} -->
+<figure class="wp-block-gallery columns-1 is-cropped"><ul class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><img loading="lazy" width="400" height="400" src="https://github.com/Kaeless/blog/wp-content/uploads/2021/07/小鲨鱼.jpg" alt="" data-id="23" data-full-url="https://github.com/Kaeless/blog/wp-content/uploads/2021/07/小鲨鱼.jpg" data-link="https://github.com/Kaeless/blog/%e5%b0%8f%e9%b2%a8%e9%b1%bc/" class="wp-image-23" srcset="https://github.com/Kaeless/blog/wp-content/uploads/2021/07/小鲨鱼.jpg 400w, https://github.com/Kaeless/blog/wp-content/uploads/2021/07/小鲨鱼-300x300.jpg 300w, https://github.com/Kaeless/blog/wp-content/uploads/2021/07/小鲨鱼-150x150.jpg 150w" sizes="(max-width: 400px) 100vw, 400px" /></figure></li></ul></figure>
+<!-- /wp:gallery --></div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-8dfdd96 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8dfdd96" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6b0b4af" data-id="6b0b4af" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-c0cb6a4 premium-blog-align-left elementor-widget elementor-widget-premium-addon-blog" data-id="c0cb6a4" data-element_type="widget" data-widget_type="premium-addon-blog.default">
+				<div class="elementor-widget-container">
+				<div class="premium-blog">
+				<div class="premium-blog-wrap  premium-blog-list" data-scroll="1" data-infinite="" data-page="1">
+					<div class="premium-blog-post-outer-container" data-total="1">
+			<div class="premium-blog-post-container premium-blog-skin-side">
+									<div class="premium-blog-thumb-effect-wrapper">
+						<div class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
+							<img width="1920" height="1080" src="https://github.com/Kaeless/blog/wp-content/uploads/2021/07/head2.jpg" class="attachment-full size-full" alt="" loading="lazy" />						</div>
+													<div class="premium-blog-thumbnail-overlay">
+								<a class="elementor-icon" href="https://github.com/Kaeless/blog/2021/07/13/wordpress%e6%8f%92%e5%85%a5%e5%9b%be%e7%89%87%e4%b8%8e%e8%a7%86%e9%a2%91/" target="_blank"></a>
+							</div>
+											</div>
+												<div class="premium-blog-content-wrapper ">
+					<div class="premium-blog-content-wrapper-inner">
+						<div class="premium-blog-inner-container">
+							<div class="premium-blog-entry-container">
+																	<div class="premium-blog-cats-container">
+										<ul class="post-categories">
+											<li><a href="https://github.com/Kaeless/blog/category/wordpress%e5%ad%a6%e4%b9%a0/" class="elementor-repeater-item-38c45d2">WordPress学习</a></li>										</ul>
+									</div>
+																		<h2 class="premium-blog-entry-title">
+			<a href="https://github.com/Kaeless/blog/2021/07/13/wordpress%e6%8f%92%e5%85%a5%e5%9b%be%e7%89%87%e4%b8%8e%e8%a7%86%e9%a2%91/" target="_blank">
+				WordPress插入图片与视频			</a>
+		</h2>
+				<div class="premium-blog-entry-meta">
+							<div class="premium-blog-post-author premium-blog-meta-data">
+					<i class="fa fa-user fa-fw"></i>
+					<a href="https://github.com/Kaeless/blog/author/root/" title="由cathode发布" rel="author">cathode</a>				</div>
+			
+							<span class="premium-blog-meta-separator">•</span>
+				<div class="premium-blog-post-time premium-blog-meta-data">
+					<i class="fa fa-clock-o"></i>
+					<span>2021年7月13日</span>
+				</div>
+			
+			
+							<span class="premium-blog-meta-separator">•</span>
+				<div class="premium-blog-post-comments premium-blog-meta-data">
+					<i class="fa fa-comments-o fa-fw"></i>
+					<a href="https://github.com/Kaeless/blog/2021/07/13/wordpress%e6%8f%92%e5%85%a5%e5%9b%be%e7%89%87%e4%b8%8e%e8%a7%86%e9%a2%91/#comments">3 Comments</a>				</div>
+					</div>
+		
+							</div>
+						</div>
+
+						<p class="premium-blog-post-content">如何在wordpress主页和blog当中插入图片或视频 采用url插入与插件的形式：url插入缓慢，无法插入 [&hellip;]</p>											</div>
+				</div>
+			</div>
+		</div>
+
+				</div>
+	</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-6f21fd5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6f21fd5" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b416a1e" data-id="b416a1e" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-535c068 premium-blog-align-left elementor-widget elementor-widget-premium-addon-blog" data-id="535c068" data-element_type="widget" data-widget_type="premium-addon-blog.default">
+				<div class="elementor-widget-container">
+				<div class="premium-blog">
+				<div class="premium-blog-wrap  premium-blog-list" data-scroll="1" data-infinite="" data-page="1" data-carousel="1" data-grid="false" data-fade="false" data-play="" data-center="false" data-slides-spacing="15" data-speed="5000" data-col="2" data-col-tablet="2" data-col-mobile="1" data-arrows="true" data-dots="false" data-scroll-slides="">
+					<div class="premium-blog-post-outer-container" data-total="1">
+			<div class="premium-blog-post-container premium-blog-skin-cards">
+									<div class="premium-blog-thumb-effect-wrapper">
+						<div class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
+										<a href="https://github.com/Kaeless/blog/2021/07/11/tensorrt-%e8%bf%9b%e8%a1%8c%e6%a8%a1%e5%9e%8b%e5%8a%a0%e9%80%9f/" target="_blank">
+			<img width="1920" height="1080" src="https://github.com/Kaeless/blog/wp-content/uploads/2021/07/head2.jpg" class="attachment-full size-full" alt="" loading="lazy" />			</a>
+									</div>
+													<div class="premium-blog-effect-container premium-blog-framed-effect">
+								<a class="premium-blog-post-link" href="https://github.com/Kaeless/blog/2021/07/11/tensorrt-%e8%bf%9b%e8%a1%8c%e6%a8%a1%e5%9e%8b%e5%8a%a0%e9%80%9f/" target="_blank"></a>
+															</div>
+											</div>
+																			<div class="premium-blog-author-thumbnail">
+							<img alt='cathode' src='https://github.com/Kaeless/blog/wp-content/uploads/2021/07/小鲨鱼-128x128.jpg' srcset='https://github.com/Kaeless/blog/wp-content/uploads/2021/07/小鲨鱼-256x256.jpg 2x' class='avatar avatar-128 photo' height='128' width='128' loading='lazy'/>						</div>
+													<div class="premium-blog-content-wrapper ">
+					<div class="premium-blog-content-wrapper-inner">
+						<div class="premium-blog-inner-container">
+							<div class="premium-blog-entry-container">
+																		<h2 class="premium-blog-entry-title premium-blog-entry-title">
+			<a href="https://github.com/Kaeless/blog/2021/07/11/tensorrt-%e8%bf%9b%e8%a1%8c%e6%a8%a1%e5%9e%8b%e5%8a%a0%e9%80%9f/" target="_blank">
+				TensorRT 进行模型加速			</a>
+		</h2>
+		
+							</div>
+						</div>
+
+						<p class="premium-blog-post-content">1.TensorRT 8.0.0.3无法进行推理，示例程序报错如下： 解决方案：采用TensorRT 7.2. [&hellip;]</p>		<div class="premium-blog-entry-meta">
+							<div class="premium-blog-post-author premium-blog-meta-data">
+					<i class="fa fa-user fa-fw"></i>
+					<a href="https://github.com/Kaeless/blog/author/root/" title="由cathode发布" rel="author">cathode</a>				</div>
+			
+							<span class="premium-blog-meta-separator">•</span>
+				<div class="premium-blog-post-time premium-blog-meta-data">
+					<i class="fa fa-clock-o"></i>
+					<span>2021年7月11日</span>
+				</div>
+			
+							<span class="premium-blog-meta-separator">•</span>
+				<div class="premium-blog-post-categories premium-blog-meta-data">
+					<i class="fa fa-align-left fa-fw"></i>
+					<a href="https://github.com/Kaeless/blog/category/%e6%b7%b1%e5%ba%a6%e5%ad%a6%e4%b9%a0/" rel="category tag">深度学习</a>				</div>
+			
+							<span class="premium-blog-meta-separator">•</span>
+				<div class="premium-blog-post-comments premium-blog-meta-data">
+					<i class="fa fa-comments-o fa-fw"></i>
+					<a href="https://github.com/Kaeless/blog/2021/07/11/tensorrt-%e8%bf%9b%e8%a1%8c%e6%a8%a1%e5%9e%8b%e5%8a%a0%e9%80%9f/#comments">1 Comment</a>				</div>
+					</div>
+													</div>
+				</div>
+			</div>
+		</div>
+
+				</div>
+	</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+						</div>
+					</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>https://github.com/Kaeless/blog/2021/07/10/hello-world/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

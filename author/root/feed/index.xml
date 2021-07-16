@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>cathode &#8211; Cathode 的个人主页</title>
+	<atom:link href="https://github.com/Kaeless/blog/author/root/feed/" rel="self" type="application/rss+xml" />
+	<link>https://github.com/Kaeless/blog</link>
+	<description>一个WordPress站点</description>
+	<lastBuildDate>Thu, 15 Jul 2021 10:06:05 +0000</lastBuildDate>
+	<language>zh-CN</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+
+<image>
+	<url>https://github.com/Kaeless/blog/wp-content/uploads/2021/07/cropped-小鲨鱼-32x32.jpg</url>
+	<title>cathode &#8211; Cathode 的个人主页</title>
+	<link>https://github.com/Kaeless/blog</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Transformer学习</title>
+		<link>https://github.com/Kaeless/blog/2021/07/14/transformer%e5%ad%a6%e4%b9%a0/</link>
+					<comments>https://github.com/Kaeless/blog/2021/07/14/transformer%e5%ad%a6%e4%b9%a0/#respond</comments>
+		
+		<dc:creator><![CDATA[cathode]]></dc:creator>
+		<pubDate>Wed, 14 Jul 2021 07:32:54 +0000</pubDate>
+				<category><![CDATA[深度学习]]></category>
+		<category><![CDATA[Pytorch]]></category>
+		<guid isPermaLink="false">https://github.com/Kaeless/blog/?p=177</guid>
+
+					<description><![CDATA[Swin-Transformer： 李宏毅-Transformer_哔哩哔哩_bilibili paralle [&#8230;]]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="177" class="elementor elementor-177" data-elementor-settings="[]">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-c55981c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c55981c" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2774c3a" data-id="2774c3a" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-5002d72 elementor-widget elementor-widget-text-editor" data-id="5002d72" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><h1 class="ql-long-51191433" data-header="2"><span class="ql-author-51191433">Swin-Transformer：</span></h1>
+<p class="ql-long-51191433"><a class="ql-link ql-author-51191433" href="https://www.bilibili.com/video/av56239558/" target="_blank" rel="noopener noreferrer nofollow">李宏毅-Transformer_哔哩哔哩_bilibili</a></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">paraller:平行化，序列当中可以同时计算</span></p>
+<h3 class="ql-long-51191433" data-header="3"><span class="ql-author-51191433">main.py:</span></h3>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">MLP：实现Transformer当中的多层感知机部分</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">fc+activation(nn.GELU)+drop+fc+drop</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">drop暂不采用</span></p>
+<h3 class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">window partition：</span></h3>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">将图片分割为window_size的大小</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">window reverse：</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">window partition的反转，主要是将分割的patch还原为图片</span></p>
+<p> </p>
+<h3 class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">Window Attention：</span></h3>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">关键的窗口注意力机制，简称为W-MSA，支持shifted window与non-shifted window</span></p>
+<h3 class="ql-long-51191433"><strong class="ql-author-51191433 ql-size-14">W</strong><span class="ql-author-51191433 ql-size-14">indow </span><strong class="ql-author-51191433 ql-size-14">M</strong><span class="ql-author-51191433 ql-size-14">ulti-head </span><strong class="ql-author-51191433 ql-size-14">S</strong><span class="ql-author-51191433 ql-size-14">elf </span><strong class="ql-author-51191433 ql-size-14">A</strong><span class="ql-author-51191433 ql-size-14">ttention</span></h3>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">forward:</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">特征的shape：B N C</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">矩阵：Q K V query key value</span></p></div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-0399d39 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0399d39" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8af363d" data-id="8af363d" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-7c622fe elementor-widget elementor-widget-text-editor" data-id="7c622fe" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><h3 class="ql-long-51191433" data-header="2"><span class="ql-author-51191433">Self-Attention的作用：</span></h3>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">CNN的优点：可以进行paraller并行计算生成序列</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">缺点：感受野小，无法兼顾长时间序列</span></p>
+<h3 class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">bi-direction RNN的优点：</span></h3>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">每一个生成结果与所有输入有关</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">缺点：Hard to parallel</span></p>
+<h3 class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">Self-Attention Layer：</span></h3>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">x_i 经过embedding (乘权重矩阵W)变为 a_i</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">a_i 经过计算获得Q K V矩阵</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433"><img loading="lazy" src="https://uploader.shimo.im/f/lMA5gOfKXkAg37sh.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MjYyNDg1MDcsImciOiJkeURrY1E2Q3ZLcWRLeGpxIiwiaWF0IjoxNjI2MjQ4MjA3LCJ1c2VySWQiOjUxMTkxNDMzfQ.NwFucyGbByXNPPu-M8yBqi5oUT_ZZ1vQzEbcru9UhLc" width="168" height="auto" /></span></p>
+<h3 class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">Q K V矩阵的计算过程</span></h3>
+<p class="ql-long-51191433"><span class="ql-author-51191433"><img loading="lazy" src="https://uploader.shimo.im/f/Z7PxTuHjm2BJlo6u.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MjYyNDg1MDcsImciOiJkeURrY1E2Q3ZLcWRLeGpxIiwiaWF0IjoxNjI2MjQ4MjA3LCJ1c2VySWQiOjUxMTkxNDMzfQ.NwFucyGbByXNPPu-M8yBqi5oUT_ZZ1vQzEbcru9UhLc" width="363" height="auto" /></span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">d_k为向量的维度dim</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">softmax：概率归一化</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">Attention计算的结果输出为第一个sequense：b_1</span></p>
+<div class="ql-long-51191433" data-header="3" data-foldable=""><span class="ql-author-51191433">Q1对K1-K4做Attention</span></div>
+<p class="ql-long-51191433"><span class="ql-author-51191433"><img loading="lazy" src="https://uploader.shimo.im/f/nnzQx6ego3VV1zob.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MjYyNDg1MDcsImciOiJkeURrY1E2Q3ZLcWRLeGpxIiwiaWF0IjoxNjI2MjQ4MjA3LCJ1c2VySWQiOjUxMTkxNDMzfQ.NwFucyGbByXNPPu-M8yBqi5oUT_ZZ1vQzEbcru9UhLc" width="761" height="auto" /></span></p>
+<div class="ql-long-51191433" data-header="3" data-foldable=""><span class="ql-author-51191433">Q2对K1-K4做Attention</span></div>
+<p class="ql-long-51191433"><span class="ql-author-51191433"><img loading="lazy" src="https://uploader.shimo.im/f/8UT5KfcFVjij59sq.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MjYyNDg1MDcsImciOiJkeURrY1E2Q3ZLcWRLeGpxIiwiaWF0IjoxNjI2MjQ4MjA3LCJ1c2VySWQiOjUxMTkxNDMzfQ.NwFucyGbByXNPPu-M8yBqi5oUT_ZZ1vQzEbcru9UhLc" width="768" height="auto" /></span></p>
+<div class="ql-long-51191433" data-header="3" data-foldable=""><span class="ql-author-51191433">Paraller并行化：</span></div>
+<p class="ql-long-51191433"><span class="ql-author-51191433"><img loading="lazy" src="https://uploader.shimo.im/f/QDOz5pyZaIvf73A1.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MjYyNDg1MDcsImciOiJkeURrY1E2Q3ZLcWRLeGpxIiwiaWF0IjoxNjI2MjQ4MjA3LCJ1c2VySWQiOjUxMTkxNDMzfQ.NwFucyGbByXNPPu-M8yBqi5oUT_ZZ1vQzEbcru9UhLc" width="756" height="auto" /></span></p>
+<p> </p>
+<div class="ql-long-51191433" data-header="3" data-foldable=""><span class="ql-author-51191433">Self-Attention的直观化表示：</span></div>
+<p class="ql-long-51191433"><span class="ql-author-51191433"><img loading="lazy" src="https://uploader.shimo.im/f/Z7PxTuHjm2BJlo6u.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MjYyNDg1MDcsImciOiJkeURrY1E2Q3ZLcWRLeGpxIiwiaWF0IjoxNjI2MjQ4MjA3LCJ1c2VySWQiOjUxMTkxNDMzfQ.NwFucyGbByXNPPu-M8yBqi5oUT_ZZ1vQzEbcru9UhLc" width="363" height="auto" /></span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433"><img loading="lazy" src="https://uploader.shimo.im/f/nqIpJ7bLkwJiR5qo.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MjYyNDg1MDcsImciOiJkeURrY1E2Q3ZLcWRLeGpxIiwiaWF0IjoxNjI2MjQ4MjA3LCJ1c2VySWQiOjUxMTkxNDMzfQ.NwFucyGbByXNPPu-M8yBqi5oUT_ZZ1vQzEbcru9UhLc" width="739" height="auto" /></span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433"><img loading="lazy" src="https://uploader.shimo.im/f/oUYOcrXuRWSSwG1M.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MjYyNDg1MDcsImciOiJkeURrY1E2Q3ZLcWRLeGpxIiwiaWF0IjoxNjI2MjQ4MjA3LCJ1c2VySWQiOjUxMTkxNDMzfQ.NwFucyGbByXNPPu-M8yBqi5oUT_ZZ1vQzEbcru9UhLc" width="620" height="auto" /></span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433"><img loading="lazy" src="https://uploader.shimo.im/f/GqekjD7ml6Y97E9I.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MjYyNDg1MDcsImciOiJkeURrY1E2Q3ZLcWRLeGpxIiwiaWF0IjoxNjI2MjQ4MjA3LCJ1c2VySWQiOjUxMTkxNDMzfQ.NwFucyGbByXNPPu-M8yBqi5oUT_ZZ1vQzEbcru9UhLc" width="312" height="auto" /></span><span class="ql-author-51191433 ql-size-14">输入为I 输出为O</span></p>
+<p> </p>
+<div class="ql-long-51191433" data-header="2" data-foldable=""><span class="ql-author-51191433">Multi-Head Self Attention：</span></div>
+<p class="ql-long-51191433"><span class="ql-author-51191433"><img loading="lazy" src="https://uploader.shimo.im/f/RUYUpxPmQEX8UMZC.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MjYyNDg1MDcsImciOiJkeURrY1E2Q3ZLcWRLeGpxIiwiaWF0IjoxNjI2MjQ4MjA3LCJ1c2VySWQiOjUxMTkxNDMzfQ.NwFucyGbByXNPPu-M8yBqi5oUT_ZZ1vQzEbcru9UhLc" width="776" height="auto" /></span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">作用：多个Q K V的组成，每个Head各司其职，可以关注不同的特征</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">最后concat 成W矩阵获得最终的输出b</span></p>
+<div class="ql-long-51191433" data-header="2" data-foldable=""><span class="ql-author-51191433">Position Encoding:</span></div>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">self-attention当中没有位置信息</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">在a_i当中添加一个向量e_i:人为规定，代表位置资讯</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">实际上e是由one-hot向量与权重矩阵相乘得到的结果：</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433"><img loading="lazy" src="https://uploader.shimo.im/f/U5prxOPiqOhT9wVW.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MjYyNDg1MDcsImciOiJkeURrY1E2Q3ZLcWRLeGpxIiwiaWF0IjoxNjI2MjQ4MjA3LCJ1c2VySWQiOjUxMTkxNDMzfQ.NwFucyGbByXNPPu-M8yBqi5oUT_ZZ1vQzEbcru9UhLc" width="752" height="auto" /></span></p>
+<p> </p>
+<h3 class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">Batch Norm和Layer Norm</span></h3>
+<p class="ql-long-51191433"><span class="ql-author-51191433"><img loading="lazy" src="https://uploader.shimo.im/f/7Il4wYyNqNrZa8Ni.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MjYyNDg1MDcsImciOiJkeURrY1E2Q3ZLcWRLeGpxIiwiaWF0IjoxNjI2MjQ4MjA3LCJ1c2VySWQiOjUxMTkxNDMzfQ.NwFucyGbByXNPPu-M8yBqi5oUT_ZZ1vQzEbcru9UhLc" width="780" height="auto" /></span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">batch norm：对每个batch的所有sample进行归一化</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433">一个batch作为基本单位</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">layer norm：一个layer当中的所有隐含神经元，做归一化</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">一个layer作为基本单位</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433"><img loading="lazy" src="https://uploader.shimo.im/f/jJbZE8t9pzoYYsKA.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MjYyNDg1MDcsImciOiJkeURrY1E2Q3ZLcWRLeGpxIiwiaWF0IjoxNjI2MjQ4MjA3LCJ1c2VySWQiOjUxMTkxNDMzfQ.NwFucyGbByXNPPu-M8yBqi5oUT_ZZ1vQzEbcru9UhLc" width="984" height="auto" /></span></p>
+<p> </p>
+<h3 class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">最终Attention的Visualization：</span></h3>
+<p class="ql-long-51191433"><a class="ql-link ql-author-51191433" href="https://ai.googleblog.com/" target="_blank" rel="noopener noreferrer nofollow">https://ai.googleblog.com/</a></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433"><img loading="lazy" src="https://uploader.shimo.im/f/nFuOlryg8MSUbzGr.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MjYyNDg1MDcsImciOiJkeURrY1E2Q3ZLcWRLeGpxIiwiaWF0IjoxNjI2MjQ4MjA3LCJ1c2VySWQiOjUxMTkxNDMzfQ.NwFucyGbByXNPPu-M8yBqi5oUT_ZZ1vQzEbcru9UhLc" width="767" height="auto" /></span></p>
+<h3 class="ql-long-51191433" data-header="2"><span class="ql-author-51191433">Example Application：</span></h3>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">1.seq2seq可以无缝切换到Transformer</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">2.Universal Transformer</span></p>
+<p class="ql-long-51191433"><span class="ql-author-51191433 ql-size-14">3.Self Attention GAN</span></p>
+<p> </p>
+<p> </p></div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+						</div>
+					</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>https://github.com/Kaeless/blog/2021/07/14/transformer%e5%ad%a6%e4%b9%a0/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>WordPress插入图片与视频</title>
+		<link>https://github.com/Kaeless/blog/2021/07/13/wordpress%e6%8f%92%e5%85%a5%e5%9b%be%e7%89%87%e4%b8%8e%e8%a7%86%e9%a2%91/</link>
+					<comments>https://github.com/Kaeless/blog/2021/07/13/wordpress%e6%8f%92%e5%85%a5%e5%9b%be%e7%89%87%e4%b8%8e%e8%a7%86%e9%a2%91/#comments</comments>
+		
+		<dc:creator><![CDATA[cathode]]></dc:creator>
+		<pubDate>Tue, 13 Jul 2021 06:23:08 +0000</pubDate>
+				<category><![CDATA[Wordpress学习]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">https://github.com/Kaeless/blog/?p=57</guid>
+
+					<description><![CDATA[如何在wordpress主页和blog当中插入图片或视频 采用url插入与插件的形式：url插入缓慢，无法插入 [&#8230;]]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="57" class="elementor elementor-57" data-elementor-settings="[]">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-259335b7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="259335b7" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-12e85fd6" data-id="12e85fd6" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-42e0c4db elementor-widget elementor-widget-text-editor" data-id="42e0c4db" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><!-- wp:paragraph {"fontSize":"normal"} -->
+<p class="has-normal-font-size">如何在wordpress主页和blog当中插入图片或视频</p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+<p>采用url插入与插件的形式：url插入缓慢，无法插入封面</p>
+<!-- /wp:paragraph --><!-- wp:table --><!-- /wp:table --><!-- wp:paragraph --><!-- /wp:paragraph --></div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-421b263 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="421b263" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9e88a83" data-id="9e88a83" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-9659f09 elementor-widget elementor-widget-heading" data-id="9659f09" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">插入一个表格</h2>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-9de9d25 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9de9d25" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-10a5a8a" data-id="10a5a8a" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-daa3feb elementor-widget elementor-widget-html" data-id="daa3feb" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			
+<table id="tablepress-1" class="tablepress tablepress-id-1">
+<thead>
+<tr class="row-1 odd">
+	<th class="column-1">测试</th><th class="column-2">测试</th><th class="column-3">测试</th><th class="column-4">4测试</th><th class="column-5">d测试</th>
+</tr>
+</thead>
+<tbody class="row-hover">
+<tr class="row-2 even">
+	<td class="column-1">测试</td><td class="column-2">测试</td><td class="column-3"></td><td class="column-4"></td><td class="column-5"></td>
+</tr>
+<tr class="row-3 odd">
+	<td class="column-1">测试</td><td class="column-2">测试</td><td class="column-3"></td><td class="column-4"></td><td class="column-5"></td>
+</tr>
+<tr class="row-4 even">
+	<td class="column-1">测试</td><td class="column-2">测试</td><td class="column-3">测试</td><td class="column-4"></td><td class="column-5"></td>
+</tr>
+<tr class="row-5 odd">
+	<td class="column-1">测试</td><td class="column-2">测试</td><td class="column-3">测试</td><td class="column-4"></td><td class="column-5"></td>
+</tr>
+</tbody>
+</table>
+<!-- #tablepress-1 from cache -->		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-4d19d3f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4d19d3f" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6ba02be" data-id="6ba02be" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-d300acc elementor-widget elementor-widget-text-editor" data-id="d300acc" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><h1>视频插件：</h1>
+<p>采用 All in One Gallery来进行视频的插入<br />通过切换到代码编辑器来进行换行</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<h3>嵌入各种模块的实现：</h3></div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-d9294bf elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d9294bf" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-915ea64" data-id="915ea64" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-fb9092b elementor-aspect-ratio-169 elementor-widget elementor-widget-video" data-id="fb9092b" data-element_type="widget" data-settings="{&quot;video_type&quot;:&quot;dailymotion&quot;,&quot;controls&quot;:&quot;yes&quot;,&quot;aspect_ratio&quot;:&quot;169&quot;}" data-widget_type="video.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-wrapper elementor-fit-aspect-ratio elementor-open-inline">
+			<iframe class="elementor-video-iframe" allowfullscreen title="dailymotion 视频播放器" src="https://dailymotion.com/embed/video/x6tqhqb?ui-highlight&amp;start&amp;endscreen-enable=0&amp;controls=1&amp;mute=0&amp;ui-start-screen-info=1&amp;ui-logo=1"></iframe>		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-ef278cc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ef278cc" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-72653e8" data-id="72653e8" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-567a339 elementor-widget elementor-widget-html" data-id="567a339" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<div class="embed-responsive embed-responsive-16by9">
+<iframe 
+class="embed-responsive-item"
+src="//player.bilibili.com/player.html?aid=70839977&bvid=BV1aE411o7qd&cid=122735362&page=1"
+    allowfullscreen> 
+</iframe>
+</div>
+		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+						</div>
+					</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>https://github.com/Kaeless/blog/2021/07/13/wordpress%e6%8f%92%e5%85%a5%e5%9b%be%e7%89%87%e4%b8%8e%e8%a7%86%e9%a2%91/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>TensorRT 进行模型加速</title>
+		<link>https://github.com/Kaeless/blog/2021/07/11/tensorrt-%e8%bf%9b%e8%a1%8c%e6%a8%a1%e5%9e%8b%e5%8a%a0%e9%80%9f/</link>
+					<comments>https://github.com/Kaeless/blog/2021/07/11/tensorrt-%e8%bf%9b%e8%a1%8c%e6%a8%a1%e5%9e%8b%e5%8a%a0%e9%80%9f/#comments</comments>
+		
+		<dc:creator><![CDATA[cathode]]></dc:creator>
+		<pubDate>Sun, 11 Jul 2021 04:24:05 +0000</pubDate>
+				<category><![CDATA[深度学习]]></category>
+		<category><![CDATA[Pytorch]]></category>
+		<guid isPermaLink="false">https://github.com/Kaeless/blog/?p=31</guid>
+
+					<description><![CDATA[1.TensorRT 8.0.0.3无法进行推理，示例程序报错如下： 解决方案：采用TensorRT 7.2. [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>1.TensorRT 8.0.0.3无法进行推理，示例程序报错如下：</p>
+
+
+
+<p>解决方案：采用TensorRT 7.2.*来进行推理加速</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://github.com/Kaeless/blog/2021/07/11/tensorrt-%e8%bf%9b%e8%a1%8c%e6%a8%a1%e5%9e%8b%e5%8a%a0%e9%80%9f/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>你好，WordPress！</title>
+		<link>https://github.com/Kaeless/blog/2021/07/10/hello-world/</link>
+					<comments>https://github.com/Kaeless/blog/2021/07/10/hello-world/#comments</comments>
+		
+		<dc:creator><![CDATA[cathode]]></dc:creator>
+		<pubDate>Sat, 10 Jul 2021 09:58:50 +0000</pubDate>
+				<category><![CDATA[未分类]]></category>
+		<guid isPermaLink="false">https://github.com/Kaeless/blog/?p=1</guid>
+
+					<description><![CDATA[这里主要展示一些WordPress的小技巧，用来进行备份，展示功能的基本使用。 博客当中主要分享研究生工作的进 [&#8230;]]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="1" class="elementor elementor-1" data-elementor-settings="[]">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-7b16797d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7b16797d" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4402c9eb" data-id="4402c9eb" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-24f67746 elementor-widget elementor-widget-text-editor" data-id="24f67746" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><!-- wp:paragraph -->
+<p>这里主要展示一些WordPress的小技巧，用来进行备份，展示功能的基本使用。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>博客当中主要分享研究生工作的进度，自学知识，leetcode刷题进度等等。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3><strong>7.10</strong></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>采用插件Simple Local Avatars来更新开发者的默认头像，换了一个可爱的小鲨鱼&#8230;..</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:gallery {"ids":[23],"linkTo":"none"} -->
+<figure class="wp-block-gallery columns-1 is-cropped"><ul class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><img loading="lazy" width="400" height="400" src="https://github.com/Kaeless/blog/wp-content/uploads/2021/07/小鲨鱼.jpg" alt="" data-id="23" data-full-url="https://github.com/Kaeless/blog/wp-content/uploads/2021/07/小鲨鱼.jpg" data-link="https://github.com/Kaeless/blog/%e5%b0%8f%e9%b2%a8%e9%b1%bc/" class="wp-image-23" srcset="https://github.com/Kaeless/blog/wp-content/uploads/2021/07/小鲨鱼.jpg 400w, https://github.com/Kaeless/blog/wp-content/uploads/2021/07/小鲨鱼-300x300.jpg 300w, https://github.com/Kaeless/blog/wp-content/uploads/2021/07/小鲨鱼-150x150.jpg 150w" sizes="(max-width: 400px) 100vw, 400px" /></figure></li></ul></figure>
+<!-- /wp:gallery --></div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-8dfdd96 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8dfdd96" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6b0b4af" data-id="6b0b4af" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-c0cb6a4 premium-blog-align-left elementor-widget elementor-widget-premium-addon-blog" data-id="c0cb6a4" data-element_type="widget" data-widget_type="premium-addon-blog.default">
+				<div class="elementor-widget-container">
+				<div class="premium-blog">
+				<div class="premium-blog-wrap  premium-blog-list" data-scroll="1" data-infinite="" data-page="1">
+					<div class="premium-blog-post-outer-container" data-total="1">
+			<div class="premium-blog-post-container premium-blog-skin-side">
+									<div class="premium-blog-thumb-effect-wrapper">
+						<div class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
+							<img width="1920" height="1080" src="https://github.com/Kaeless/blog/wp-content/uploads/2021/07/head2.jpg" class="attachment-full size-full" alt="" loading="lazy" />						</div>
+													<div class="premium-blog-thumbnail-overlay">
+								<a class="elementor-icon" href="https://github.com/Kaeless/blog/2021/07/13/wordpress%e6%8f%92%e5%85%a5%e5%9b%be%e7%89%87%e4%b8%8e%e8%a7%86%e9%a2%91/" target="_blank"></a>
+							</div>
+											</div>
+												<div class="premium-blog-content-wrapper ">
+					<div class="premium-blog-content-wrapper-inner">
+						<div class="premium-blog-inner-container">
+							<div class="premium-blog-entry-container">
+																	<div class="premium-blog-cats-container">
+										<ul class="post-categories">
+											<li><a href="https://github.com/Kaeless/blog/category/wordpress%e5%ad%a6%e4%b9%a0/" class="elementor-repeater-item-38c45d2">WordPress学习</a></li>										</ul>
+									</div>
+																		<h2 class="premium-blog-entry-title">
+			<a href="https://github.com/Kaeless/blog/2021/07/13/wordpress%e6%8f%92%e5%85%a5%e5%9b%be%e7%89%87%e4%b8%8e%e8%a7%86%e9%a2%91/" target="_blank">
+				WordPress插入图片与视频			</a>
+		</h2>
+				<div class="premium-blog-entry-meta">
+							<div class="premium-blog-post-author premium-blog-meta-data">
+					<i class="fa fa-user fa-fw"></i>
+					<a href="https://github.com/Kaeless/blog/author/root/" title="由cathode发布" rel="author">cathode</a>				</div>
+			
+							<span class="premium-blog-meta-separator">•</span>
+				<div class="premium-blog-post-time premium-blog-meta-data">
+					<i class="fa fa-clock-o"></i>
+					<span>2021年7月13日</span>
+				</div>
+			
+			
+							<span class="premium-blog-meta-separator">•</span>
+				<div class="premium-blog-post-comments premium-blog-meta-data">
+					<i class="fa fa-comments-o fa-fw"></i>
+					<a href="https://github.com/Kaeless/blog/2021/07/13/wordpress%e6%8f%92%e5%85%a5%e5%9b%be%e7%89%87%e4%b8%8e%e8%a7%86%e9%a2%91/#comments">3 Comments</a>				</div>
+					</div>
+		
+							</div>
+						</div>
+
+						<p class="premium-blog-post-content">如何在wordpress主页和blog当中插入图片或视频 采用url插入与插件的形式：url插入缓慢，无法插入 [&hellip;]</p>											</div>
+				</div>
+			</div>
+		</div>
+
+				</div>
+	</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-6f21fd5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6f21fd5" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b416a1e" data-id="b416a1e" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-535c068 premium-blog-align-left elementor-widget elementor-widget-premium-addon-blog" data-id="535c068" data-element_type="widget" data-widget_type="premium-addon-blog.default">
+				<div class="elementor-widget-container">
+				<div class="premium-blog">
+				<div class="premium-blog-wrap  premium-blog-list" data-scroll="1" data-infinite="" data-page="1" data-carousel="1" data-grid="false" data-fade="false" data-play="" data-center="false" data-slides-spacing="15" data-speed="5000" data-col="2" data-col-tablet="2" data-col-mobile="1" data-arrows="true" data-dots="false" data-scroll-slides="">
+					<div class="premium-blog-post-outer-container" data-total="1">
+			<div class="premium-blog-post-container premium-blog-skin-cards">
+									<div class="premium-blog-thumb-effect-wrapper">
+						<div class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
+										<a href="https://github.com/Kaeless/blog/2021/07/11/tensorrt-%e8%bf%9b%e8%a1%8c%e6%a8%a1%e5%9e%8b%e5%8a%a0%e9%80%9f/" target="_blank">
+			<img width="1920" height="1080" src="https://github.com/Kaeless/blog/wp-content/uploads/2021/07/head2.jpg" class="attachment-full size-full" alt="" loading="lazy" />			</a>
+									</div>
+													<div class="premium-blog-effect-container premium-blog-framed-effect">
+								<a class="premium-blog-post-link" href="https://github.com/Kaeless/blog/2021/07/11/tensorrt-%e8%bf%9b%e8%a1%8c%e6%a8%a1%e5%9e%8b%e5%8a%a0%e9%80%9f/" target="_blank"></a>
+															</div>
+											</div>
+																			<div class="premium-blog-author-thumbnail">
+							<img alt='cathode' src='https://github.com/Kaeless/blog/wp-content/uploads/2021/07/小鲨鱼-128x128.jpg' srcset='https://github.com/Kaeless/blog/wp-content/uploads/2021/07/小鲨鱼-256x256.jpg 2x' class='avatar avatar-128 photo' height='128' width='128' loading='lazy'/>						</div>
+													<div class="premium-blog-content-wrapper ">
+					<div class="premium-blog-content-wrapper-inner">
+						<div class="premium-blog-inner-container">
+							<div class="premium-blog-entry-container">
+																		<h2 class="premium-blog-entry-title premium-blog-entry-title">
+			<a href="https://github.com/Kaeless/blog/2021/07/11/tensorrt-%e8%bf%9b%e8%a1%8c%e6%a8%a1%e5%9e%8b%e5%8a%a0%e9%80%9f/" target="_blank">
+				TensorRT 进行模型加速			</a>
+		</h2>
+		
+							</div>
+						</div>
+
+						<p class="premium-blog-post-content">1.TensorRT 8.0.0.3无法进行推理，示例程序报错如下： 解决方案：采用TensorRT 7.2. [&hellip;]</p>		<div class="premium-blog-entry-meta">
+							<div class="premium-blog-post-author premium-blog-meta-data">
+					<i class="fa fa-user fa-fw"></i>
+					<a href="https://github.com/Kaeless/blog/author/root/" title="由cathode发布" rel="author">cathode</a>				</div>
+			
+							<span class="premium-blog-meta-separator">•</span>
+				<div class="premium-blog-post-time premium-blog-meta-data">
+					<i class="fa fa-clock-o"></i>
+					<span>2021年7月11日</span>
+				</div>
+			
+							<span class="premium-blog-meta-separator">•</span>
+				<div class="premium-blog-post-categories premium-blog-meta-data">
+					<i class="fa fa-align-left fa-fw"></i>
+					<a href="https://github.com/Kaeless/blog/category/%e6%b7%b1%e5%ba%a6%e5%ad%a6%e4%b9%a0/" rel="category tag">深度学习</a>				</div>
+			
+							<span class="premium-blog-meta-separator">•</span>
+				<div class="premium-blog-post-comments premium-blog-meta-data">
+					<i class="fa fa-comments-o fa-fw"></i>
+					<a href="https://github.com/Kaeless/blog/2021/07/11/tensorrt-%e8%bf%9b%e8%a1%8c%e6%a8%a1%e5%9e%8b%e5%8a%a0%e9%80%9f/#comments">1 Comment</a>				</div>
+					</div>
+													</div>
+				</div>
+			</div>
+		</div>
+
+				</div>
+	</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+						</div>
+					</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>https://github.com/Kaeless/blog/2021/07/10/hello-world/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
